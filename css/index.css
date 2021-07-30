@@ -1,0 +1,49 @@
+/* BASE */
+@import './base/base.css';
+@import './base/layout.css';
+@import './base/reset.css';
+@import './base/variables.css';
+
+/* 3RD-PARTIES */
+@import './3rd-party/font-awesome.min.css';
+
+/* COMPONENTS */
+
+
+/* CUSTUM STYLES FOR HOMEPAGE */
+
+/* HEADER start */
+/* HEADER end */
+
+/* HERO start */
+/* HERO end */
+
+/* ABOUT ME start */
+/* ABOUT ME end */
+
+/* SERVICES start */
+/* SERVICES end */
+
+/* HIRE ME start */
+/* HIRE ME end */
+
+/* EDUCATION start */
+/* EDUCATION end */
+
+/* WORKING HOURS start */
+/* WORKING HOURS end */
+
+/* MY RECENT WORK start */
+/* MY RECENT WORK end */
+
+/* OUR CLIENT start */
+/* OUR CLIENT end */
+
+/* TRUSTED BY start */
+/* TRUSTED end */
+
+/* CONTACT start */
+/* CONTACT end */
+
+/* FOOTER start */
+/* FOOTER end */
