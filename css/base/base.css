@@ -1,0 +1,16 @@
+.justify-items-center {
+    justify-items: center;
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.light-bold {
+    font-weight: 500;
+}
+
+.bold {
+    font-weight: 700;
+}
