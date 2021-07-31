@@ -17,6 +17,17 @@
 /* HEADER end */
 
 /* HERO start */
+@media (min-width: 640px) {
+    .down {
+        display: inline-block;
+    }
+}
+@media (min-width: 990px) {
+    .down {
+        padding: 15px 5px 5px 5px;
+        font-size: 16px;
+    }
+}
 @media (min-width: 1200px) {
     .p-hero {
         font-size: 21px;

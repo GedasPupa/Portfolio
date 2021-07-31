@@ -7,7 +7,7 @@
 
 .overlay-hero {
     background-color: #000;
-    opacity: 0.8;
+    opacity: 0.88;
     position: absolute;
     top: 0;
     width: 100%;
@@ -71,4 +71,18 @@
     color: var(--light-black);
     border-color: var(--light-black);
     background-color: var(--light-color);
+}
+
+.down {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: var(--light-color);
+    border: 1px solid var(--light-color);
+    padding: 10px 2px 2px 2px;
+    font-size: 12px;
+    border-radius: 10px;
+    display: none;
+
 }

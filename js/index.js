@@ -2,10 +2,10 @@
 
 // IMPORTS:
 
-
 // CODE EXECUTION:
 
 /* HEADER start */
+particlesJS.load('particles-js', './js/particles.json');
 /* HEADER end */
 
 /* HERO start */
