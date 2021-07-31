@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/index.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src='./js/3rd-parties/simple-text-rotator.js'></script>
     <title>Gedas Portfolio</title>
 </head>
 <body>
@@ -13,6 +15,7 @@
     <!-- HEADER end -->
     
     <!-- HERO start -->
+    <h1>I am <span class="rotate">Gediminas..,..JavaScript programmer!,..web developer..</span></h1>
     <!-- HERO end -->
     
     <!-- ABOUT ME start -->
@@ -44,7 +47,13 @@
     
     <!-- FOOTER start -->
     <!-- FOOTER end -->
-
-    <script src='./js/index.js'></script>
+    <script>
+        $(".rotate").textrotator({
+            animation: "fade", 
+            separator: ",", 
+            speed: 2000 
+        });
+    </script>
+    <script src='./js/index.js' type="module"></script>
 </body>
 </html>
