@@ -6,9 +6,10 @@
 
 /* 3RD-PARTIES */
 @import './3rd-party/font-awesome.min.css';
+@import './3rd-party/simpletextrotator.css';
 
 /* COMPONENTS */
-
+@import './components/hero.css';
 
 /* CUSTUM STYLES FOR HOMEPAGE */
 
@@ -16,6 +17,32 @@
 /* HEADER end */
 
 /* HERO start */
+@media (min-width: 640px) {
+    .down {
+        display: inline-block;
+    }
+}
+@media (min-width: 990px) {
+    .down {
+        padding: 15px 5px 5px 5px;
+        font-size: 16px;
+    }
+}
+@media (min-width: 1200px) {
+    .p-hero {
+        font-size: 21px;
+    }
+    .h1-hero {
+        font-size: 65px;
+        margin: 20px 0;
+    }
+    .btn {
+        font-size: 16px;
+        padding: 10px 30px;
+        width: max-content;
+        margin-top: 50px;
+    }
+}
 /* HERO end */
 
 /* ABOUT ME start */
