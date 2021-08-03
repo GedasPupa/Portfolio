@@ -1,4 +1,8 @@
 :root {
+    --title-border: #d0d0d0;
     --light-color: #F3F3F3;
     --light-black: #2d2d2d;
+    --font-color: #6C757D;
+    --dark-font-color: #393f44;
+    --progress-back: #E9ECEF;
 }
