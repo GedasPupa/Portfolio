@@ -1,0 +1,24 @@
+.services {
+    background-color: var(--light-color);
+}
+
+.item-center {
+    justify-self: center;
+}
+
+.icon {
+    width: 42px;
+}
+
+.h3 {
+    font-size: 1.5rem;
+    padding: 1.7rem 0 0.8rem 0;
+    color: var(--light-black);
+}
+
+.border {
+    width: 100%;
+    border: 1px dotted var(--title-border);
+    border-radius: 5px;
+    padding: 30px 20px;
+}
