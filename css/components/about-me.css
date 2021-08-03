@@ -1,0 +1,47 @@
+.gedas-logo {
+    padding-bottom: 50px;
+}
+
+.about-me-title > .col-12 > ul {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin: 25px 0;
+    font-size: 20px;
+    color: var(--dark-font-color);
+}
+
+.about-me-title li:first-child {
+    list-style-type: none;
+}
+
+.about-progress-bar {
+    padding: 20px 0;
+}
+
+.about-progress-bar > .col-12  {
+    padding: 10px;
+}
+
+.about-progress-bar > .col-12 > .myProgress {
+    width: 100%;
+    background-color: var(--progress-back);
+}
+
+.about-progress-bar > .col-12 .myBar {
+    width: 90%;
+    height: 5px;
+    background-color: var(--light-black);
+}
+
+.about-progress-bar >.col-12 > h4  {
+    font-weight: 500;
+    text-align: left;
+    padding-bottom: 10px;
+    color: var(--light-black);
+}
+
+.about-progress-bar h4 > span {
+    float: right;
+    color: var(--font-color);
+};

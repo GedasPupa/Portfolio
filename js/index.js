@@ -1,17 +1,21 @@
 "use strict";
-
 // IMPORTS:
+
+import { Progress } from "./components/progress/Progress.js";
+import { progressData } from "./data/progressData.js";
+
 
 // CODE EXECUTION:
 
 /* HEADER start */
-particlesJS.load('particles-js', './js/particles.json');
 /* HEADER end */
 
 /* HERO start */
+particlesJS.load('particles-js', './js/particles.json');
 /* HERO end */
 
 /* ABOUT ME start */
+const progress = new Progress('.about-progress-bar', progressData);
 /* ABOUT ME end */
 
 /* SERVICES start */
