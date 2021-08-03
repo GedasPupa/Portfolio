@@ -15,3 +15,33 @@
     font-weight: 700;
 }
 
+.p {
+    color: var(--font-color);
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+/* .title PART starts*/
+.title {
+    margin-bottom: 3rem;
+}
+
+.h2 {
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.main-title-border {
+    margin: 1rem 0;
+}
+
+.main-title-border::after, .main-title-border::before {
+    display: inline-block;
+    margin-top: -7px;
+    vertical-align: middle;
+    content: "";
+    background-color: var(--title-border);
+    width: 30px;
+    height: 1px;
+}
+/* .title part ends */
