@@ -2,7 +2,9 @@
 // IMPORTS:
 
 import { Progress } from "./components/progress/Progress.js";
+import { Services } from "./components/services/Services.js";
 import { progressData } from "./data/progressData.js";
+import { servicesData } from "./data/servicesData.js";
 
 
 // CODE EXECUTION:
@@ -19,6 +21,7 @@ const progress = new Progress('.about-progress-bar', progressData);
 /* ABOUT ME end */
 
 /* SERVICES start */
+const services = new Services('services_box', servicesData);
 /* SERVICES end */
 
 /* HIRE ME start */
