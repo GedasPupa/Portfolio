@@ -55,24 +55,6 @@
     transform: scale(1.25);
 }
 
-.btn {
-    font-size: 12px;
-    padding: 7px 21px;
-    width: max-content;
-    margin-top: 15px;
-    color: var(--light-color);
-    background: transparent;
-    border: 1px solid var(--light-color);
-    border-radius: 25px;
-    transition: all 0.7s;
-}
-
-.btn:hover {
-    color: var(--light-black);
-    border-color: var(--light-black);
-    background-color: var(--light-color);
-}
-
 .down {
     position: absolute;
     bottom: 20px;
