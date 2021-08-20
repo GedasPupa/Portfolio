@@ -16,6 +16,7 @@
 @import './components/button.css';
 @import './components/education.css';
 @import './components/working-hours.css';
+@import './components/gallery.css';
 
 /* CUSTUM STYLES FOR HOMEPAGE */
 
@@ -92,6 +93,17 @@
 /* WORKING HOURS end */
 
 /* MY RECENT WORK start */
+@media (min-width: 990px) {
+    .work .content > .item {
+     min-height: 270px;
+    }
+    .work .item  img {
+      transform: translate(-50%, -50%) scale(0.5);
+    }
+    .work .item:hover  img {
+      transform: translate(-50%, -50%) scale(0.55);
+    }
+  }
 /* MY RECENT WORK end */
 
 /* OUR CLIENT start */
