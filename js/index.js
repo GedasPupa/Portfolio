@@ -5,6 +5,8 @@ import { Progress } from "./components/progress/Progress.js";
 import { Services } from "./components/services/Services.js";
 import { progressData } from "./data/progressData.js";
 import { servicesData } from "./data/servicesData.js";
+import { Education } from "./components/education/Education.js";
+import { educationData } from "./data/educationData.js";
 
 
 // CODE EXECUTION:
@@ -28,6 +30,7 @@ const services = new Services('services_box', servicesData);
 /* HIRE ME end */
 
 /* EDUCATION start */
+const education = new Education("education_box", educationData);
 /* EDUCATION end */
 
 /* WORKING HOURS start */
