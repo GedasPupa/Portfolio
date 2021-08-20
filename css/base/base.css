@@ -45,3 +45,9 @@
     height: 1px;
 }
 /* .title part ends */
+
+#work .icon-fa {
+    font-size: 14px;
+    margin-left: 5px;
+    margin-top: 3px;
+}
