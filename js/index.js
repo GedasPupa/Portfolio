@@ -8,6 +8,9 @@ import { servicesData } from "./data/servicesData.js";
 import { Education } from "./components/education/Education.js";
 import { educationData } from "./data/educationData.js";
 import { count1, count2, count3, count4 } from "./components/working-hours/data-count.js";
+import { Gallery } from './components/gallery/Gallery.js';
+import { PortfolioItem } from './components/gallery/PortfolioItem.js';
+import { portfolioData } from './data/portfolioData.js';
 
 
 
@@ -48,6 +51,7 @@ count4(data4, data4, 'fact-4');
 /* WORKING HOURS end */
 
 /* MY RECENT WORK start */
+const gallery = new Gallery('work', portfolioData, PortfolioItem);
 /* MY RECENT WORK end */
 
 /* OUR CLIENT start */

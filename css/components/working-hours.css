@@ -3,6 +3,7 @@
     background: url('../../img/img-1.jpg');
     background-size: cover;
     background-position: center center;
+    background-attachment: fixed;
 }
 
 .overlay {
