@@ -1,0 +1,26 @@
+.carousel {
+    display: inline-block;
+    width: 100%;
+}
+.carousel > .gallery {
+    display: inline-block;
+    width: 100%;
+}
+.carousel > .gallery > .list {
+    display: inline-block;
+    width: 100%;
+}
+.carousel .list > .item {
+    display: inline-block;
+    width: 100%;
+    border: 1px solid green;
+}
+
+.carousel > .controls {
+    display: inline-block;
+    width: 100%;
+}
+.carousel > .controls > .dots {}
+.carousel .dots > .dot {}
+
+
