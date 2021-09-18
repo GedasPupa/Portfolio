@@ -1,0 +1,5 @@
+class Slider {
+
+}
+
+export { Slider };
