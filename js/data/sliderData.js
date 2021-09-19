@@ -1,5 +1,5 @@
 const sliderData = {
-    imgPath: '/img/testimonials/',
+    imgPath: './img/testimonials/',
     controls: {
         anglesEnabled: true,
         dotsEnabled: true
