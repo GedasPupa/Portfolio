@@ -65,10 +65,10 @@
     position: absolute;
     overflow: hidden;
     border-radius: 7px;
-    top: 10px;
-    right: 10px;
-    bottom: 10px;
-    left: 10px;
+    top: 5%;
+    right: 5%;
+    bottom: 5%;
+    left: 5%;
 }
 .item-overlay:hover {
     color: #fff;
