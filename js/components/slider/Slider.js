@@ -16,6 +16,7 @@ class Slider {
         }
 
         this.render();
+        this.addEvents();
     }
 
     isValidSelector() {
@@ -30,32 +31,53 @@ class Slider {
         return !!this.DOM;
     }
 
+    generateItems() {
+        const itemsCount = this.data.list.length;
+        const itemWidth = 100 / itemsCount;
+        let HTML = '';
+
+        for (let i = 0; i < itemsCount; i++) {
+            HTML += `<div class='item1' style='width: ${itemWidth}%;'>ITEM${i+1}</div>`;            
+        }
+        return HTML;
+    }
+
+    generateDots(){
+        let HTML = '';
+        const itemsCount = this.data.list.length;
+
+        for (let i = 0; i < itemsCount; i++) {
+            HTML += `<div class='dot'></div>`;
+        }
+        return HTML;
+    }
+
     render() {
         const itemsCount = this.data.list.length;
+        const itemsPerView = 1;
         const listWidth = itemsCount / this.data.itemsPerView[0].itemsCount * 100;
         const itemWidth = 100 / itemsCount;
+        const singleMargin = 100 / itemsPerView;
 
         const HTML = `<div class='carousel'>
                         <div class='gallery'>
                             <div class='list' style="width: ${listWidth}%;">
-                                <div class='item' style='width: ${itemWidth}%;'>ITEM</div>
-                                <div class='item' style='width: ${itemWidth}%;'>ITEM</div>
-                                <div class='item' style='width: ${itemWidth}%;'>ITEM</div>
-                                <div class='item' style='width: ${itemWidth}%;'>ITEM</div>
-                                <div class='item' style='width: ${itemWidth}%;'>ITEM</div>
+                                ${this.generateItems()}
+
                             </div>
                         </div>
                         <div class='controls'>
                             <div class='dots'>
-                                <div class='dot'></div>
-                                <div class='dot'></div>
-                                <div class='dot'></div>
-                                <div class='dot'></div>
-                                <div class='dot'></div>
+                                ${this.generateDots()}
+
                             </div>
                         </div>
                     </div>`;
         this.DOM.innerHTML = HTML;
+    }
+
+    addEvents() {
+        
     }
 }
 
