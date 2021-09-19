@@ -14,6 +14,8 @@ import { portfolioData } from './data/portfolioData.js';
 import { Slider } from "./components/slider/Slider.js";
 import { sliderData } from "./data/sliderData.js";
 import { Testimonials } from "./components/testimonials/Testimonials.js";
+import { Trusted } from "./components/trusted/Trusted.js";
+import { trustedData } from "./data/trustedData.js";
 
 
 // CODE EXECUTION:
@@ -61,6 +63,7 @@ new Slider('#slider_block', Testimonials, sliderData);
 /* OUR CLIENT end */
 
 /* TRUSTED BY start */
+new Trusted('logo_block', trustedData);
 /* TRUSTED end */
 
 /* CONTACT start */
