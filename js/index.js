@@ -11,7 +11,9 @@ import { count1, count2, count3, count4 } from "./components/working-hours/data-
 import { Gallery } from './components/gallery/Gallery.js';
 import { PortfolioItem } from './components/gallery/PortfolioItem.js';
 import { portfolioData } from './data/portfolioData.js';
-
+import { Slider } from "./components/slider/Slider.js";
+import { sliderData } from "./data/sliderData.js";
+import { Testimonials } from "./components/testimonials/Testimonials.js";
 
 
 // CODE EXECUTION:
@@ -55,6 +57,7 @@ const gallery = new Gallery('work', portfolioData, PortfolioItem);
 /* MY RECENT WORK end */
 
 /* OUR CLIENT start */
+new Slider('#slider_block', Testimonials, sliderData);
 /* OUR CLIENT end */
 
 /* TRUSTED BY start */

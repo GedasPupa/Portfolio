@@ -1,0 +1,66 @@
+.carousel {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+}
+  .carousel > .gallery {
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+}
+  .carousel > .gallery > .list {
+    display: inline-block;
+    width: 100%;
+    transition: all 1s;
+}
+  .carousel .list > .item {
+    width: 100%;
+    float: left;
+}
+  .carousel > .controls {
+    position: relative;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+}
+  .carousel > .controls > .dots {
+    display: flex;
+    gap: 10px;
+}
+  .carousel .dots > .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 6px solid var(--title-border);
+    border-radius: 50%;
+    cursor: pointer;
+}
+  .carousel > .controls > .fa {
+    width: 20px;
+    line-height: 12px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 700;
+    color: var(--light-color);
+}
+
+.our-client {
+    position: relative;
+    background: url('../../img/img-2.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: var(--title-border);
+}
+
+.our-client .title {
+    color: var(--light-color);
+    position: relative;
+}
+.our-client p {
+    color: var(--title-border);
+    position: relative;
+}
