@@ -6,11 +6,11 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 5px;
+    /* gap: 10px; */
 }
 
 .work .tag {
-    margin: 0 12px;
+    margin: 8px 12px;
     padding: 4px 15px;
     border: 1px solid black;
     border-radius: 4px;
@@ -30,7 +30,7 @@
     border-radius: 4px;
     overflow: hidden;
     position: relative;
-    min-height: 500px;
+    min-height: 420px;
 }
 
 .work .item-overlay > p {
@@ -51,7 +51,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0.9);
-    height: inherit;
+    /* height: fit-content; */
     transition: all 0.5s;
 }
 .work .item:hover  img {
