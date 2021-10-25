@@ -16,11 +16,14 @@ import { sliderData } from "./data/sliderData.js";
 import { Testimonials } from "./components/testimonials/Testimonials.js";
 import { Trusted } from "./components/trusted/Trusted.js";
 import { trustedData } from "./data/trustedData.js";
+import { Header } from "./components/header/Header.js";
+import { headerData } from "./data/headerData.js";
 
 
 // CODE EXECUTION:
 
 /* HEADER start */
+const header = new Header('#meniuBlock', headerData);
 /* HEADER end */
 
 /* HERO start */

@@ -51,3 +51,13 @@
     margin-left: 5px;
     margin-top: 3px;
 }
+
+.container-fluid {
+    display: inline-block;
+    width: 100%;
+  }
+.container-fluid > .row {
+    display: inline-block;
+    width: 100%;
+    margin: 10px 0;
+}
