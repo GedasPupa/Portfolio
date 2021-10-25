@@ -20,10 +20,41 @@
 @import './components/carousel.css';
 @import './components/testimonials.css';
 @import './components/trusted-by.css';
+@import './components/header.css';
 
 /* CUSTUM STYLES FOR HOMEPAGE */
 
 /* HEADER start */
+@media (max-width: 800px) {
+    .fa.fa-bars {
+        display: inline-block;
+        float: right;
+    }
+    .meniu-bar-selector {
+        display: none;
+    }
+    .meniu-nav {
+        margin-right: 0;
+    }
+    .headerBar {
+        background-color: white;
+        box-shadow: 0px 1px 10px grey;
+        transition: background-color 1s;
+    }
+    .headerBar .logoWhite {
+        display: none;
+    }
+    .headerBar .logoBlack {
+        display: inline-block;
+        margin-left: 50px;
+    }
+    .headerBar .meniu-nav {
+        color: black;
+    }
+    .headerBar .meniu-nav:hover {
+        color: black;
+    }
+}
 /* HEADER end */
 
 /* HERO start */
